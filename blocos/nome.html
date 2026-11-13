@@ -1,0 +1,41 @@
+<section class="blk-nome" id="o-nome">
+  <div class="wrap">
+    <div class="blk-nome__texto">
+      <p class="blk-nome__eyebrow" data-reveal>De onde vem o nome</p>
+      <p class="blk-nome__palavra" data-reveal><span>åldras</span></p>
+      <p class="blk-nome__def" data-reveal><em>verbo, sueco</em> · envelhecer</p>
+      <h2 class="blk-nome__titulo" data-reveal>Uma clínica que escolheu o envelhecimento como nome</h2>
+      <p class="blk-nome__lead" data-acende>A Dra. Thaís não batizou a clínica com uma promessa de parar o tempo. Batizou com o verbo que descreve o que acontece com todo mundo. Daí saiu o Plano de Envelhecimento: um cuidado pensado em anos, não numa sessão só.</p>
+      <ol class="blk-nome__plano">
+        <li data-reveal style="--d:0ms"><span class="blk-nome__ic"><!--icone:conversa--></span><div><strong>Avaliação</strong><span>O que mudou na pele e no cabelo, e o que você quer manter.</span></div></li>
+        <li data-reveal style="--d:120ms"><span class="blk-nome__ic"><!--icone:agenda--></span><div><strong>Calendário</strong><span>Procedimentos distribuídos ao longo do ano, cada um na sua época.</span></div></li>
+        <li data-reveal style="--d:240ms"><span class="blk-nome__ic"><!--icone:check--></span><div><strong>Revisão</strong><span>Retornos para ajustar o plano conforme o rosto responde.</span></div></li>
+      </ol>
+    </div>
+    <figure class="blk-nome__foto" data-reveal>
+      <!--foto:midia/sala-espelho.jpg|Sala da Clínica Audra com painel de madeira iluminado, espelho oval e poltrona-->
+    </figure>
+  </div>
+</section>
+
+<style>
+.blk-nome{padding-block:var(--sp-section)}
+.blk-nome__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-nome__palavra{margin:0;font-family:var(--f-display);font-size:clamp(4.2rem,20vw,9rem);line-height:.9;color:var(--pulse);letter-spacing:-.02em}
+.blk-nome__def{margin:var(--sp-1) 0 var(--sp-4);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:color-mix(in srgb,var(--ink) 60%,transparent)}
+.blk-nome__def em{font-style:italic;text-transform:none;letter-spacing:0}
+.blk-nome__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-nome__lead{margin:var(--sp-3) 0 var(--sp-4);font-size:1.15rem;line-height:1.6;color:var(--ink);max-width:36rem}
+.blk-nome__plano{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-nome__plano li{display:grid;grid-template-columns:auto 1fr;gap:var(--sp-2);align-items:start;padding-top:var(--sp-2);border-top:1px solid color-mix(in srgb,var(--ink) 12%,transparent)}
+.blk-nome__plano strong{display:block;font-family:var(--f-display);font-size:1.3rem;font-weight:500;color:var(--ink)}
+.blk-nome__plano span{color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-nome__ic{display:inline-flex;width:2.25rem;height:2.25rem;color:var(--brand)}
+.blk-nome__ic svg{width:100%;height:100%}
+.blk-nome__foto{margin:var(--sp-5) 0 0}
+.blk-nome__foto img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--radius)}
+@media (min-width:900px){
+  .blk-nome .wrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:var(--sp-6);align-items:center}
+  .blk-nome__foto{margin:0}
+}
+</style>

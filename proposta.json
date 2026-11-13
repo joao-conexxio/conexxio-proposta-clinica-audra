@@ -1,0 +1,382 @@
+{
+  "slug": "clinica-audra",
+  "negocio": {
+    "nome": "Clínica Audra",
+    "logo": "brand/logo.png",
+    "whatsapp": "5547999218676",
+    "telefone": "(47) 99921-8676",
+    "funcionamento": {
+      "seg": "09:30-18:30",
+      "ter": "09:30-18:30",
+      "qua": "09:30-18:30",
+      "qui": "09:30-18:30",
+      "sex": "09:30-18:30",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Atiradores · Joinville",
+        "endereco": "R. Expedicionário Holz, 550 – sala 1209, Edifício Helbor Dual – Atiradores, Joinville – SC, 89201-740",
+        "telefone": "(47) 99921-8676",
+        "horario": "Segunda a sexta, 9h30 às 18h30"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#73431D",
+    "brand2": "#4E2D13",
+    "ink": "#2A2622",
+    "bg": "#FFFFFF",
+    "pulse": "#D2B25B",
+    "radius": "22px",
+    "registro": "editorial",
+    "fontDisplay": "Zilla Slab",
+    "fontBody": "Manrope",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Transplante",
+            "href": "#transplante"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#equipe"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Cabelo e pele · Joinville",
+        "h1": "Cabelo e pele, cuidados para anos",
+        "lead": "Transplante e tratamento capilar, toxina, bioestimuladores e tecnologias para o rosto, com a Dra. Thaís Batista e equipe, em Joinville há mais de 8 anos.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Como é o transplante",
+        "ctaSecundarioHref": "#transplante",
+        "imagem": "midia/dra-thais.jpg",
+        "imagemAlt": "Dra. Thaís Batista sentada na recepção da Clínica Audra",
+        "tarja": [
+          "5,0 no Google, 386 avaliações",
+          "Sala cirúrgica dentro da clínica",
+          "SPA capilar para o pós do transplante",
+          "Seg a sex, 9h30 às 18h30"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Transplante capilar",
+          "Tratamento capilar",
+          "Transplante de sobrancelha",
+          "Toxina botulínica",
+          "Bioestimuladores",
+          "Ultraformer",
+          "Lavieen",
+          "Morpheus"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "texto": [
+          "A Dra. Thaís se formou em Medicina em 2011 e foi juntando três frentes que conversam entre si: a saúde do cabelo, o transplante capilar e o envelhecimento do rosto.",
+          "A Audra reúne as três no mesmo andar, com médicos, sala cirúrgica, tecnologias e um SPA capilar. A ideia é que você não precise procurar outro lugar quando o plano muda de fase."
+        ],
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da Clínica Audra, com balcão de mármore, painel de madeira e luminárias pendentes"
+      }
+    },
+    {
+      "custom": "blocos/transplante.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a Audra trata",
+        "lead": "Cada indicação sai da consulta. Aqui está o que a clínica oferece.",
+        "itens": [
+          {
+            "nome": "Transplante capilar",
+            "descricao": "Folículos retirados da área doadora e implantados um a um, em sala cirúrgica própria, com anestesia local.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Tratamento capilar",
+            "descricao": "Investigação da causa da queda e tratamento clínico, sozinho ou como preparo para o transplante.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Transplante de sobrancelha",
+            "descricao": "Para sobrancelhas falhadas ou ralas, com fios posicionados na direção natural.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão. O efeito é temporário, e a clínica indica a época do retorno.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Bioestimuladores de colágeno",
+            "descricao": "Estimulam a própria pele a produzir colágeno, para firmeza que aparece aos poucos.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Plano de Envelhecimento",
+            "descricao": "Os procedimentos organizados num calendário pessoal, revisto a cada retorno.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Tecnologias para o rosto",
+        "itens": [
+          {
+            "nome": "Ultraformer",
+            "detalhe": "Ultrassom microfocado para flacidez",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Lavieen",
+            "detalhe": "Laser para textura, manchas e viço da pele",
+            "icone": "laser"
+          },
+          {
+            "nome": "Morpheus",
+            "detalhe": "Radiofrequência com microagulhas",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O que os pacientes dizem no Google",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "386",
+            "rotulo": "avaliações de pacientes",
+            "contar": 386
+          },
+          {
+            "valor": "81",
+            "rotulo": "delas falam da equipe",
+            "contar": 81
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/nome.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Retorno sem depender da memória",
+        "titulo": "A clínica lembra do seu retorno",
+        "lead": "A toxina tem época certa para ser refeita. Antes de o efeito passar, a recepção chama no WhatsApp e já oferece um horário.",
+        "cta": "Falar com a recepção",
+        "contato": "Clínica Audra",
+        "mensagens": [
+          {
+            "de": "clinica",
+            "texto": "Oi, Mariana! Aqui é da Clínica Audra. Sua toxina foi aplicada em julho."
+          },
+          {
+            "de": "clinica",
+            "texto": "Está chegando a época que a Dra. Thaís indicou para o retorno. Quer que eu veja um horário?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Nossa, tinha esquecido! Quero sim. Fim de tarde dá?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tenho quinta às 17h. Posso reservar?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Pode! Obrigada por lembrar."
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Quem cuida de você",
+        "itens": [
+          {
+            "nome": "Thaís Batista Packer",
+            "registro": "CRM-SC 17.827",
+            "especialidade": "Fundadora · saúde capilar, transplante e estética facial",
+            "foto": "midia/dra-thais.jpg"
+          },
+          {
+            "nome": "Andressa Manfredini",
+            "registro": "CRM-SC 27.363 · RQE 17.714",
+            "especialidade": "Dermatologia · responsável técnica"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Por dentro da Audra",
+        "itens": [
+          {
+            "imagem": "midia/equipe.jpg",
+            "legenda": "A equipe em atendimento"
+          },
+          {
+            "imagem": "midia/recepcao.jpg",
+            "legenda": "Recepção"
+          },
+          {
+            "imagem": "midia/sala-espelho.jpg",
+            "legenda": "Sala de atendimento"
+          },
+          {
+            "imagem": "midia/sala-procedimento.jpg",
+            "legenda": "Sala de procedimentos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Nas palavras de quem passou por lá",
+        "itens": [
+          {
+            "texto": "Na Audra não se trata apenas do transplante, eles te acompanham de perto antes e depois. Cada caso é tratado individualmente, não somos colocados em linha de produção.",
+            "autor": "Renan R.",
+            "contexto": "Transplante capilar · Google"
+          },
+          {
+            "texto": "O acompanhamento e a supervisão ao longo de todo o processo foram constantes. Nunca me senti desamparado em nenhuma fase.",
+            "autor": "Bruno F.",
+            "contexto": "Transplante capilar · Google"
+          },
+          {
+            "texto": "A clínica é muito organizada, limpa e acolhedora. A equipe explica tudo com muita paciência e faz a gente se sentir segura.",
+            "autor": "Heloisa S.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "As orientações sobre as lavagens e os cuidados no spa fizeram toda a diferença nos primeiros dias, quando surgem tantas dúvidas.",
+            "autor": "Luis P.",
+            "contexto": "Transplante capilar · Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas que chegam no WhatsApp",
+        "itens": [
+          {
+            "p": "O transplante capilar é feito com anestesia geral?",
+            "r": "Não. É feito com anestesia local, em sala cirúrgica da própria clínica, com monitorização e anestesiologista presente."
+          },
+          {
+            "p": "Quando os fios transplantados começam a crescer?",
+            "r": "Em geral entre 30 e 45 dias. A densidade melhora aos poucos, e o resultado se estabiliza por volta de um ano."
+          },
+          {
+            "p": "Preciso fazer tratamento antes do transplante?",
+            "r": "Depende da causa da queda. A avaliação mostra se vale tratar o couro cabeludo antes da cirurgia."
+          },
+          {
+            "p": "Quanto tempo dura a toxina botulínica?",
+            "r": "O efeito é temporário e varia de pessoa para pessoa. Na consulta a médica indica a época do retorno."
+          },
+          {
+            "p": "A clínica atende aos sábados?",
+            "r": "Não. O atendimento é de segunda a sexta, das 9h30 às 18h30."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Edifício Helbor Dual, em Atiradores",
+        "imagem": "midia/recepcao.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp se é cabelo, pele ou os dois. A recepção encontra um horário com a Dra. Thaís.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Transplante",
+            "href": "#transplante"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Clínica Audra · Joinville, SC. Responsável técnica: Dra. Andressa Manfredini, CRM-SC 27.363, RQE 17.714. Resultados variam de pessoa para pessoa; a indicação de cada procedimento é feita na avaliação."
+      }
+    }
+  ]
+}

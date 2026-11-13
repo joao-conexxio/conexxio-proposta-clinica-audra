@@ -1,0 +1,64 @@
+<section class="blk-tx" id="transplante">
+  <div class="wrap">
+    <div class="blk-tx__cab" data-reveal>
+      <p class="blk-tx__eyebrow">Transplante capilar na Audra</p>
+      <h2 class="blk-tx__titulo">Do primeiro exame ao fio que cresce, um ano de acompanhamento</h2>
+      <p class="blk-tx__lead">O transplante começa bem antes da cirurgia e termina bem depois dela. Em cada etapa você sabe com quem falar.</p>
+    </div>
+    <ol class="blk-tx__linha">
+      <li class="blk-tx__etapa" data-reveal style="--d:0ms">
+        <p class="blk-tx__quando">Antes</p>
+        <h3>Avaliação médica</h3>
+        <p>A Dra. Thaís investiga a causa da queda, o estágio da calvície e a área doadora. Quando indicado, o tratamento clínico começa antes, para preparar o couro cabeludo.</p>
+      </li>
+      <li class="blk-tx__etapa" data-reveal style="--d:100ms">
+        <p class="blk-tx__quando">Dia da cirurgia</p>
+        <h3>Sala cirúrgica própria</h3>
+        <p>Anestesia local, monitorização contínua e anestesiologista presente. Os folículos são selecionados um a um e implantados no ângulo natural dos fios.</p>
+      </li>
+      <li class="blk-tx__etapa" data-reveal style="--d:200ms">
+        <p class="blk-tx__quando">Primeiros dias</p>
+        <h3>SPA capilar</h3>
+        <p>As lavagens e os cuidados do pós são feitos na própria clínica, com orientação para cada dúvida que aparece em casa.</p>
+      </li>
+      <li class="blk-tx__etapa" data-reveal style="--d:300ms">
+        <p class="blk-tx__quando"><span data-count="30">30</span> a <span data-count="45">45</span> dias</p>
+        <h3>Os fios começam a nascer</h3>
+        <p>A densidade melhora mês a mês, com retornos para acompanhar a evolução.</p>
+      </li>
+      <li class="blk-tx__etapa" data-reveal style="--d:400ms">
+        <p class="blk-tx__quando">Cerca de <span data-count="12">12</span> meses</p>
+        <h3>O resultado se estabiliza</h3>
+        <p>É quando se vê o desenho final. O acompanhamento segue enquanto fizer sentido.</p>
+      </li>
+    </ol>
+    <figure class="blk-tx__foto" data-reveal>
+      <!--foto:midia/sala-procedimento.jpg|Sala de procedimentos da Clínica Audra, com maca, monitor e carrinho de equipamentos-->
+      <figcaption>A sala onde os procedimentos são feitos, dentro da clínica.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+.blk-tx{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 9%,var(--bg))}
+.blk-tx__cab{max-width:44rem;margin-bottom:var(--sp-5)}
+.blk-tx__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-tx__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-tx__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-tx__linha{list-style:none;margin:0;padding:0 0 0 1.5rem;position:relative;display:grid;gap:var(--sp-4)}
+.blk-tx__linha::before{content:"";position:absolute;left:.35rem;top:.4rem;bottom:.4rem;width:2px;background:linear-gradient(var(--pulse),var(--brand))}
+.blk-tx__etapa{position:relative}
+.blk-tx__etapa::before{content:"";position:absolute;left:-1.5rem;top:.3rem;width:.85rem;height:.85rem;border-radius:50%;background:var(--bg);border:2px solid var(--pulse)}
+.blk-tx__quando{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-tx__etapa h3{margin:.25rem 0 .4rem;font-family:var(--f-display);font-size:1.45rem;font-weight:500;color:var(--ink)}
+.blk-tx__etapa p:last-child{margin:0;color:color-mix(in srgb,var(--ink) 75%,transparent);line-height:1.6}
+.blk-tx__foto{margin:var(--sp-5) 0 0}
+.blk-tx__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius)}
+.blk-tx__foto figcaption{margin-top:var(--sp-1);font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 60%,transparent)}
+@media (min-width:900px){
+  .blk-tx .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);column-gap:var(--sp-6)}
+  .blk-tx__cab{grid-column:1/-1}
+  .blk-tx__foto{margin:0;align-self:start;position:sticky;top:6rem}
+  .blk-tx__foto img{aspect-ratio:3/4}
+}
+</style>
